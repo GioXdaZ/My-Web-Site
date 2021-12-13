@@ -56,13 +56,20 @@ tr {
     flex-direction: column;
     align-items: center;
 }
-
+.middle-container .contact-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .bottom-container {
     background-color: #93329E;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
 
+.table-center {
+    margin: 0;
+}
 
 .footer-link {
     color: #440A67;
@@ -73,6 +80,8 @@ tr {
 }
 
 .skill-row {
+    display: flex;
+    align-items: center;
     width: 50%;
     margin: auto;
     text-align:left;
@@ -84,13 +93,13 @@ tr {
 }
 
 .img-starts {
-    width: 25%;
+    width: 15%;
     float: left;
     margin-right: 30px;
 }
 
 .img-joystick {
-    width: 25%;
+    width: 15%;
     float: right;
     margin-right: 30px;
 }
